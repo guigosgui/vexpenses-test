@@ -1,0 +1,12 @@
+parameters:
+    level: 5 # Comece com 5, subindo para 6, 7, 8, 9 conforme a maturidade do projeto
+    paths:
+        - app
+        - config
+        - database/seeders
+        - routes
+        - tests
+    ignoreErrors:
+        # Exclua erros específicos que você aceita temporariamente, se necessário
+        - '#Some specific error to ignore#'
+        - identifier: method.deprecated

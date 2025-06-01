@@ -101,11 +101,6 @@
 - **Linhas**: [`56`](https://github.com/vexpenses/backend-test/blob/main/app/Http/Controllers/UserController.php#L56), [`76`](https://github.com/vexpenses/backend-test/blob/main/app/Http/Controllers/UserController.php#L76), [`101`](https://github.com/vexpenses/backend-test/blob/main/app/Http/Controllers/UserController.php#L101), [`119`](https://github.com/vexpenses/backend-test/blob/main/app/Http/Controllers/UserController.php#L119), [`146`](https://github.com/vexpenses/backend-test/blob/main/app/Http/Controllers/UserController.php#L146), [`173`](https://github.com/vexpenses/backend-test/blob/main/app/Http/Controllers/UserController.php#L173)
 - **Comentário**: Usar abstrações para facilitar testes e manutenção.
 
-### 🟢 Middleware necessário?
-- **Arquivo**: [`app/Http/Middleware/App/ResourcePolicies.php`](https://github.com/vexpenses/backend-test/blob/main/app/Http/Middleware/App/ResourcePolicies.php#L15)
-- **Linha**: [`15`](https://github.com/vexpenses/backend-test/blob/main/app/Http/Middleware/App/ResourcePolicies.php#L15)
-- **Comentário**: Avaliar se esse middleware é necessário, considerando os `can()` do Laravel.
-
 ---
 
 ## ⚙️ Maintainability
